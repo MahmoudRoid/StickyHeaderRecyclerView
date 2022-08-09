@@ -1,5 +1,6 @@
 package com.mahmoudroid.stickyHeaderRecyclerview
 
+import android.app.Service
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -43,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         list.add(DummyModel("Mohammad", Random.nextInt(17,50)))
         list.add(DummyModel("Reza", Random.nextInt(17,50)))
         list.add(DummyModel("Hossein", Random.nextInt(17,50)))
-        list.add(DummyModel("Farhad", Random.nextInt(17,50)))
+        list.add(DummyModel("Frank", Random.nextInt(17,50)))
         list.add(DummyModel("Felix", Random.nextInt(17,50)))
         list.add(DummyModel("Mahmoudreza", Random.nextInt(17,50)))
         list.add(DummyModel("Hooman", Random.nextInt(17,50)))
@@ -57,7 +58,7 @@ class MainActivity : AppCompatActivity() {
         list.add(DummyModel("Rio", Random.nextInt(17,50)))
         list.add(DummyModel("Ben", Random.nextInt(17,50)))
         list.add(DummyModel("Bernard", Random.nextInt(17,50)))
-        list.add(DummyModel("Tammy", Random.nextInt(17,50)))
+        list.add(DummyModel("Tommy", Random.nextInt(17,50)))
         list.add(DummyModel("Adam", Random.nextInt(17,50)))
         return list
     }
@@ -67,3 +68,4 @@ class MainActivity : AppCompatActivity() {
         super.onDestroy()
     }
 }
+

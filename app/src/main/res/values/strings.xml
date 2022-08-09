@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Sticky Header Recyclerview</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
 </resources>

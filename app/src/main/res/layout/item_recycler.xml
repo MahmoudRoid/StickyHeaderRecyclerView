@@ -5,7 +5,6 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:backgroundTint="@color/white"
     android:layout_marginBottom="4dp"
     android:layout_marginTop="4dp"
     app:cardElevation="0dp">
@@ -13,7 +12,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@color/background"
         android:orientation="vertical">
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -32,8 +31,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
             android:layout_marginTop="8dp"
             />
 

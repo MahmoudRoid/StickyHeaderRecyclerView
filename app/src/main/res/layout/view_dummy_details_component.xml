@@ -11,8 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:clickable="false"
-        android:divider="@color/white"
-        android:dividerHeight="4dp"
+        android:divider="@color/background"
+        android:dividerHeight="8dp"
         app:layout_constraintHeight_default="wrap"
         app:layout_constraintTop_toTopOf="parent"
         tools:listitem="@layout/view_dummy_details_list_item" />
