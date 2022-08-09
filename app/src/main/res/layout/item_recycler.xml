@@ -23,7 +23,9 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:layout_margin="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="24dp"
             tools:text="A" />
 
         <com.mahmoudroid.stickyHeaderRecyclerview.view.DummyDetailsComponentView
